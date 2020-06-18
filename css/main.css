@@ -1,0 +1,30 @@
+:root{
+    --Primary-color: rgb(233, 233, 233);
+    --Secondary-color: rgb(255, 210, 86);
+    --text-primary: rgb(14, 12, 20);
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0; 
+}
+  
+body {
+    background: var(--Very-Light-Gray);
+    color: var(--Very-Dark-Blue);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px; 
+    text-align: center;
+}
+
+a {
+    display: inline-block;
+    color: inherit;
+    text-decoration: none; 
+}
+
+li {
+    list-style: none;
+    margin: auto 1.2rem; 
+}
