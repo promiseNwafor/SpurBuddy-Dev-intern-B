@@ -1,0 +1,114 @@
+header{
+    height: 80vh;
+}
+
+#head > div > div{
+    margin-left: 0;
+}
+
+#section1 .box2 h1{
+    font-size: 1.8rem;
+    letter-spacing: 0.1rem;
+}
+
+#section1 .section1{
+    grid-template-columns: repeat(2, 1fr);
+    width: 100%;
+    padding: 3rem 0;
+}
+
+#section1 .box1{
+    height: 90%;
+}
+
+#section1 .box2{
+    grid-column: 2;
+    padding: 0;
+    padding-right: 3rem;
+}
+
+#alphabets p{
+    font-size: 2rem;
+    line-height: 50px;
+}
+
+#section3 .fa-chevron-left{
+    left: 1%;
+}
+
+#section4 .section4{
+    width: 100%;
+}
+
+#section4 .section4 > div .p{
+    font-size: 1.2rem;
+    letter-spacing: 1px;
+}
+
+#section4 .section4 .btn{
+    width: 150px;
+}
+
+#section2 .section2{
+    width: 90%;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 500px){
+    #head > div h1,
+    #section1 .box2 h1{
+        font-size: 1.5rem;
+        letter-spacing: 0.1rem;
+        margin-bottom: 1.5rem;
+    }
+    #section1 .section1{
+        grid-template-columns: 1fr;
+        width: 100%;
+        padding: 3rem 0;
+    }
+    #section1 .box1{
+        width: 300px;
+        height: 200px;
+    }
+    #section1 .box2{
+        grid-column: 1;
+        padding: 2rem;
+        text-align: center;
+    }
+    #section1 .box2 hr{
+        margin: 0 auto 2rem auto;
+    }
+    #alphabets p{
+        font-size: 1.5rem;
+        line-height: 40px;
+        letter-spacing: 2px;
+    }
+    #section3 .section3{
+        width: 90%;
+    }
+    #section3 .section3 .box2 p{
+        text-align: center;
+        padding: 1rem;
+    }
+    #section3 .fa-chevron-right{
+        left: 80%;
+    }
+    #section4 .section4{
+        flex-direction: column;
+        text-align: center;
+    }
+    #section4 .section4 > div{
+        width: 100%;
+    }
+    #section2 .section2 div{
+        padding: 1rem;
+    }
+}
