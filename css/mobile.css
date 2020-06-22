@@ -54,7 +54,6 @@
     right: 10%;
 }
 
-
 @media screen and (max-width: 480px){
     header{
         height: 80vh;
@@ -62,6 +61,7 @@
     /* header .menu-wrap{
         right: 25%;
     } */
+  
     #head > div h1,
     #section1 .box2 h1{
         font-size: 1.5rem;
@@ -85,6 +85,7 @@
     #section1 .box2 hr{
         margin: 0 auto 2rem auto;
     }
+
     #alphabets p{
         font-size: 1.5rem;
         line-height: 40px;
