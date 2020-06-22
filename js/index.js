@@ -19,3 +19,4 @@ changeSlide = direction => {
     }
     currentImg.removeClass('active');
 }
+
