@@ -1,0 +1,401 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-size: 1rem;
+    font-family: Montserrat;
+    font-weight: normal;
+}
+
+.container{
+    max-width: 1440px;
+    width: 100%;
+    height: 100%;
+    margin: auto auto;
+    background-color: #FFF;
+}
+
+li{
+    list-style-type: none;
+}
+
+.header-contact{
+    width: 100%;
+    height: 753px;
+    margin: auto auto;
+    background-image:url(./images/image-contact.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+
+.header-contact-open-menu{
+    background-color: hsl(229, 31%, 21%);
+    height: 100vh;
+}
+
+.header-contact-logo{
+    width: 90%;
+    margin: auto auto;
+    padding: 3% 0%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+
+.header-contact-logo .logo .title{
+    color: white;
+    font-size: 48px;
+}
+
+.openCloseMenu{
+    margin-top: 2%;
+} 
+
+.open{
+    width: 45px;
+    cursor: pointer;
+}
+
+.close{
+    width: 45px;
+    cursor: pointer;
+    display: none;  
+}
+
+
+.list-items-wrapper{
+    width: 90%;
+    margin: auto auto;
+    display: none;
+}
+
+
+
+.list-items-wrapper ul li {
+    text-align: center;
+    padding: 20px;
+    
+}
+
+.list-items-wrapper ul li a{
+    color: #FFF;
+    text-decoration: none;
+    font-size: 16px;
+    
+} 
+
+.contact{
+    width: 90%;
+    margin: auto auto;
+    color: #FFF;
+    letter-spacing: 3px;
+    padding-top: 28%;
+}
+
+.contact h1{
+    font-size: 48px;
+    font-weight: 700;
+}
+
+.contact p{
+    text-transform: uppercase;
+    padding-top: 2%;
+}
+
+.contact span{
+    color: silver;
+}
+
+.reach-us{
+    width: 100%;
+    margin: 5% auto 10%;
+    text-align: center;
+}
+
+.large{
+    font-size: 55px;
+    padding-bottom: 3%;
+    letter-spacing: 3px;
+}
+
+.num{
+    font-size: 48px;
+    font-weight: normal;
+    padding-bottom: 2%;
+    letter-spacing: 1px;
+}
+
+.date{
+    padding-bottom: 2%;
+    letter-spacing: 3px;
+}
+
+.btn-call{
+    transition: 1s;
+}
+
+.btn-call button{
+    padding: 2% 5%;
+    color: #FFF;
+    background-color: #F2C94C;
+    font-size: 25px;
+    border: none;
+    border-radius: 5px;
+    transition: 1s;
+}
+
+.btn:hover{
+    box-shadow: 0px 10px 15px rgba(2, 2, 2, .2);
+    cursor: pointer;
+}
+
+.form-wrapper{
+    width: 100%;
+    margin: 0% auto 7%;
+}
+
+.form{
+    text-align: center;
+}
+
+.form div{
+    padding: 1%;
+
+}
+
+input{
+    padding: 2% 50% 2% 2%;
+    font-size: 18px;
+    border-radius: 3px;
+    border: 1px solid #F2C94C;
+}
+
+textarea{
+    padding: 2% 50% 8% 2%;
+    font-size: 18px;
+    border-radius: 3px;
+    border: 1px solid #F2C94C;
+}
+
+
+.message-btn{
+    padding: 2% 27%;
+    font-size: 25px;
+    letter-spacing: 3px;
+    border-radius: 3px;
+    background-color:  #F2C94C;
+    border: none;
+    color: #FFF;
+    transition: 1s;
+}
+
+.message-btn:hover{
+    box-shadow: 0px 10px 15px rgba(2, 2, 2, .2);
+    cursor: pointer;
+}
+
+.footer-contact-wrapper{
+    width: 100%;
+    margin: auto auto;
+    background-color: rgb(224,224,224);
+    color: #333333;
+}
+
+.footer-logo{
+    width: 90%;
+    margin: auto auto;
+    text-align: left;
+    padding: 3% 0%;
+    font-size: 48px;
+    
+}
+
+.footer-contact-nav{
+    width: 90%;
+    margin: auto auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between; 
+   
+}
+
+.footer-nav-heading{
+    font-size: 18px;
+    font-weight: 700;
+    padding-bottom: 10%;
+}
+
+.adr{
+    padding-bottom: 10%;
+}
+
+.flex {
+    padding-top: 25px;
+}
+
+.flex ul li{
+    padding-bottom: 10%;
+}
+
+.footer-contact-wrapper a{
+    text-decoration: none;
+    color: #333333;
+}
+
+.footer-contact-wrapper a:hover{
+    color: #F2C94C;
+}
+
+.site ul li{
+    padding-top: 5px;
+}
+
+.site ul li{
+    padding-bottom: 10%;
+}
+
+.social-icons img{
+    padding-left: 10px;
+    cursor: pointer;
+}
+
+
+.artribute{
+    width: 90%;
+    margin: auto auto;
+    text-align: right;
+    padding: 3% 0%;
+}
+
+@media all and (max-width: 950px){
+    .reach-us{
+        margin-top: 0%;
+        
+    }
+}
+
+@media all and (max-width: 768px){
+    
+    .header-contact{
+        height: 100%;
+    }
+
+    .contact{
+        padding-bottom: 8%;
+    }
+
+    .reach-us{
+        margin: 8% auto;
+    }
+    .large{
+        font-size: 48px;
+        
+    }
+    
+    .num{
+        font-size: 35px;
+    }
+    
+    .btn-call{
+        font-size: 14px;
+    } 
+    
+    .footer-contact-nav{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+
+
+    .footer-logo{
+        width: 100%;
+        margin: auto auto;
+        text-align: center;
+        padding: 4% 0%;
+        font-size: 35px;
+        
+    }
+
+    .artribute{
+        width: 100%;
+        margin: auto auto;
+        text-align: center;
+        padding: 3% 0%;
+    }
+}
+
+@media all and (max-width: 560px){
+    .contact h1{
+        font-size: 35px;
+    }
+    
+    .contact p{
+        padding-top: 1%;
+    }
+    .title{
+        font-size: 35px !important;
+    }
+
+    .open,.close{
+        width: 35px;
+    }
+    .btn-call button{
+        font-size: 18px;
+    }
+
+    .form div{
+        padding: 2%;
+    
+    }
+
+    input{
+      padding: 2% 30% 2% 2%;
+      font-size: 16;
+    }
+
+    textarea{
+       padding: 2% 35% 8% 2%;
+       font-size: 16px;
+    }
+ 
+    .message-btn{
+        padding: 2% 18%;
+    } 
+}
+
+@media all and (max-width: 400px){
+    .contact{
+        padding-bottom: 5%;
+        padding-top: 10%;
+    }
+    .contact h1{
+        font-size: 30px;
+    }
+    
+    .contact p{
+        text-transform: capitalize;
+        letter-spacing: 1px;
+    }
+    .title{
+        font-size: 30px !important;
+    }
+
+    .open,.close{
+        width: 30px;
+    }
+
+    .large{
+        font-size: 30px;
+        letter-spacing: 1px;
+        
+    }
+    
+    .num{
+        font-size: 25px;
+    }
+}
