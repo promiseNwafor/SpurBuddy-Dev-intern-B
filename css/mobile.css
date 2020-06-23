@@ -85,6 +85,9 @@
     #section1 .box2 hr{
         margin: 0 auto 2rem auto;
     }
+    #alphabets{
+        height: 100px;
+    }
 
     #alphabets p{
         font-size: 1.5rem;
