@@ -87,6 +87,7 @@
     }
     #alphabets{
         height: 100px;
+        margin-top: 2rem;
     }
 
     #alphabets p{
