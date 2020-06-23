@@ -366,6 +366,11 @@ textarea{
     .message-btn{
         padding: 2% 18%;
     } 
+    footer img{
+        width: 30px;
+        height: auto;
+    }
+
 }
 
 @media all and (max-width: 400px){
